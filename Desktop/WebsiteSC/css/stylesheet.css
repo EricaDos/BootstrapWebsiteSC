@@ -1,0 +1,14 @@
+.navbar{
+  background-color: #ffe16fd9;
+
+  /* list-style: none; */
+  /* text-align: right; */
+}
+
+.navbar-toggle-icon {
+  background-color: red!
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: silver;
+}
