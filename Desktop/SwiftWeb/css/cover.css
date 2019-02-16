@@ -68,6 +68,92 @@ body {
 }
 
 
+.navbar {
+  background: orange;
+}
+.navbar-custom {
+    background-color: orange;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    /* color: rgba(255,255,255,.8); */
+    color: black;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    /* color: rgba(255,255,255,.5); */
+    color: rgba(0,0,0,.5);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+/* for dropdown only - change the color of dropdown */
+.navbar-custom .dropdown-menu {
+    background-color: #ff5500;
+}
+.navbar-custom .dropdown-item {
+    color: black;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+
+/* changes the color of the default bootstrap and overrides the original color with !important */
+.bg-light {
+    background-color: orange !important;
+}
+
+#map {
+      height: 100%;
+  }
+
+  #locationField, #controls {
+    position: relative;
+    width: 480px;
+}
+  #autocomplete {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99%;
+  }
+  .label {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    color: #303030;
+    font-family: "Roboto";
+  }
+  #address {
+    border: 1px solid #000090;
+    background-color: #f0f9ff;
+    width: 480px;
+    padding-right: 2px;
+  }
+  #address td {
+    font-size: 10pt;
+  }
+  .field {
+    width: 99%;
+  }
+  .slimField {
+    width: 80px;
+  }
+  .wideField {
+    width: 200px;
+  }
+  #locationField {
+    height: 20px;
+    margin-bottom: 2px;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
