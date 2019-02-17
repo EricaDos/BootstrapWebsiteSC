@@ -111,17 +111,44 @@
       </div>
 
       <!--  Book Now Map Container -->
-      <div class="map-container">
+      <div class="col-md-12" id="map-container">
+        <h3> Book Now </h3>
 
         <div class="col-md-6">
-          <h3> Book Now </h3>
-        <div>
-          <label for="locationTextField">Post Code</label>
-            <input id="locationTextField" type="text" size="50">
+            <div>
+            <div class="col-md-2">
+            <label for="fullname">Full Name</label>
+          </div>
+            <input id="fullname" type="text" size:"30" required>
           </div>
           <div>
-            <label for="serviceType">Service</label>
+
+            <div class="col-md-2">
+            <label for="email">Email</label>
           </div>
+            <input id="email" type="text" size:"30" required>
+          </div>
+          <div>
+            <div class="col-md-2">
+          <label for="locationTextField">Post Code</label>
+        </div>
+            <input id="locationTextField" type="text" size="30">
+          </div>
+          <div class="col-md-2">
+          <div class="servicestype">
+
+            <label for="serviceType">Service Type</label>
+            </div>
+          </div>
+             <select placeholder="services" name="services" id="services_input" required>
+             <option disabled hidden selected>Services</option>
+             <option>One-off Cleaning</option>
+             <option>Regular Cleaning</option>
+             <option>Enterprise Cleaning</option>
+           </select>
+         </div>
+         <div
+
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.css">
           <div class="col-md-6">
